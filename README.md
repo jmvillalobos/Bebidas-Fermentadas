@@ -1,14 +1,22 @@
 # Bebidas-Fermentadas
 Python and R workflow used for the metagenomic analysis of fermented beverage samples
 
-# 📖 Overview
-This repository contains the bioinformatic workflow used for the metagenomic analysis of Kombucha, Kefir, Pozol and Pulque samples. The project includes:
-- Quality control
-- Taxonomic classification
-- Metagenomic assembly
-- Genome binning
-- Functional annotation
-- Microbial diversity analyses
+## 📖 Overview
+
+This repository contains a reproducible bioinformatic workflow for the metagenomic analysis of traditional fermented beverages, including Kombucha, Kefir, Pozol, and Pulque. The workflow integrates metagenomic assembly, genome-resolved analyses, microbial ecology, and genome-scale metabolic modeling to characterize microbial communities and predict metabolic interactions.
+
+The repository includes:
+
+- Quality control and read trimming
+- Taxonomic profiling of microbial communities
+- Metagenomic assembly and MAG reconstruction
+- Genome quality assessment and taxonomic classification
+- Functional annotation and biosynthetic gene cluster analysis
+- Alpha and beta diversity analyses
+- Comparative microbial community analyses
+- Genome-scale metabolic model (GEM) reconstruction
+- Community metabolic modeling using MICOM
+- Metabolic interaction, compatibility, and inducer/repressor network analyses
 
 # 🔍 Repository Structure
 ```text
